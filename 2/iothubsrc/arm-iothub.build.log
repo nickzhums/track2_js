@@ -1,0 +1,22 @@
+Invoking: tsc && rollup -c rollup.config.js && npm run minify && mkdirp ./review &&  npm run extract-api 
+loaded rollup.config.js with warnings
+(!) Unused external imports
+default imported from external module 'rollup' but never used
+
+./esm/iotHubClient.js → ./dist/arm-iothub.js...
+created ./dist/arm-iothub.js in 662ms
+
+> @azure/arm-iothub@1.0.0 minify
+> uglifyjs -c -m --comments --source-map "content='./dist/arm-iothub.js.map'" -o ./dist/arm-iothub.min.js ./dist/arm-iothub.js
+
+
+> @azure/arm-iothub@1.0.0 extract-api
+> api-extractor run --local
+
+
+api-extractor 7.9.10  - https://api-extractor.com/
+
+Using configuration from D:\shared\iothubtest2\iothubsrc\api-extractor.json
+Analysis will use the bundled TypeScript version 3.9.9
+
+API Extractor completed successfully

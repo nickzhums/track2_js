@@ -1,0 +1,5 @@
+Invoking: npm run lint && tsc 
+
+> iothubsample@1.0.0 lint
+> eslint "./src/**/*.{js,ts,tsx}" --quiet
+

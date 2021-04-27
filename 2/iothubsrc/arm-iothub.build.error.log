@@ -1,0 +1,6 @@
+loaded rollup.config.js with warnings
+(!) Unused external imports
+default imported from external module 'rollup' but never used
+
+./esm/iotHubClient.js → ./dist/arm-iothub.js...
+created ./dist/arm-iothub.js in 662ms

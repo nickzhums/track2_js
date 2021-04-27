@@ -1,0 +1,1 @@
+{"version":3,"file":"resourceProviderCommon.d.ts","sourceRoot":"","sources":["../../src/operationsInterfaces/resourceProviderCommon.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,QAAQ,MAAM,kBAAkB,CAAC;AAC7C,OAAO,EAAE,kDAAkD,EAAE,MAAM,WAAW,CAAC;AAE/E,uDAAuD;AACvD,MAAM,WAAW,sBAAsB;IACrC;;;OAGG;IACH,oBAAoB,CAClB,OAAO,CAAC,EAAE,QAAQ,CAAC,gBAAgB,GAClC,OAAO,CAAC,kDAAkD,CAAC,CAAC;CAChE"}

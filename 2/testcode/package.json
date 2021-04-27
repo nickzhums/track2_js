@@ -1,0 +1,34 @@
+{
+  "name": "iothubsample",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "tsc": "tsc",
+    "build": "npm run lint && tsc",
+    "build-watch": "tsc -w",
+    "serve": "nodemon dist/index.js",
+    "start": "node dist/index.js",
+    "lint": "eslint \"./src/**/*.{js,ts,tsx}\" --quiet",
+    "fix-lint": "eslint \"./src/**/*.{js,ts,tsx}\" --quiet --fix"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/js-yaml": "^3.12.1",
+    "@types/node": "^14.14.41",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@azure/arm-iothub": "^1.0.0",
+    "@azure/identity": "^1.2.2",
+    "@azure/ms-rest-nodeauth": "^3.0.6"
+  }
+}
